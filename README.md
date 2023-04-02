@@ -30,9 +30,9 @@ Open the solution containing the project you are using Selenium for.
 (this will check your current version, the latest version, and if they don't match, it will delete current and download/install the latest)
 4. Include these within your code.
 
-SeleniumHelper.UpdateDriver();\n
-Console.WriteLine("Press Enter to exit...");\n
-Console.ReadLine();
+1. SeleniumHelper.UpdateDriver();
+2. Console.WriteLine("Press Enter to exit...");
+3. Console.ReadLine();
 
 5. The reason for the ReadLine and WriteLine is for testing purposes, once it updates your driver, it will open a browser, writes some text into the search bar, and submits the search.
 This will effectively pause the program while you confirm it is working, and then you should be able to continue.
