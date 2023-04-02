@@ -13,7 +13,7 @@ Open the solution containing the project you are using Selenium for.
 
 
 1. Right Click
-2.Add Project Reference 
+2. Add Project Reference 
 3. Browse
 4. Navigate to folder containing the class library you downloaded
 5.(Local Path to Where You Put Folder)\SeleniumUpdateLibrary\bin\Debug\netstandard2.0)
